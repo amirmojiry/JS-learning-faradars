@@ -3,7 +3,7 @@ function getNumbers () {
     var n2 = parseInt (prompt ("Enter second number: "));
     var op = prompt ("Enter operator: ");
     var result  = calc (n1, n2, op);
-    alert (result);
+    document.write (result);
 }
 
 function calc (num1, num2, operator) {
